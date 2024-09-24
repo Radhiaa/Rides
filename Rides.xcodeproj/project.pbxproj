@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EF1F3462CA1FEE7002321CC /* EstimatedCarbonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F3452CA1FEE7002321CC /* EstimatedCarbonViewModel.swift */; };
+		2EF1F3482CA1FF7A002321CC /* EstimatedCarbonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F3472CA1FF7A002321CC /* EstimatedCarbonViewController.swift */; };
+		2EF1F34A2CA1FFF3002321CC /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F3492CA1FFF3002321CC /* PageViewController.swift */; };
+		2EF1F34C2CA2037C002321CC /* VehicleListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F34B2CA2037C002321CC /* VehicleListTests.swift */; };
+		2EF1F34E2CA203A6002321CC /* EstimatedCarbonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F34D2CA203A6002321CC /* EstimatedCarbonTests.swift */; };
 		F6DA06D22C9F9A9500AC9105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA06D12C9F9A9500AC9105 /* AppDelegate.swift */; };
 		F6DA06D42C9F9A9500AC9105 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA06D32C9F9A9500AC9105 /* SceneDelegate.swift */; };
 		F6DA06D92C9F9A9500AC9105 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F6DA06D82C9F9A9500AC9105 /* Base */; };
@@ -41,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EF1F3452CA1FEE7002321CC /* EstimatedCarbonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedCarbonViewModel.swift; sourceTree = "<group>"; };
+		2EF1F3472CA1FF7A002321CC /* EstimatedCarbonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedCarbonViewController.swift; sourceTree = "<group>"; };
+		2EF1F3492CA1FFF3002321CC /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		2EF1F34B2CA2037C002321CC /* VehicleListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListTests.swift; sourceTree = "<group>"; };
+		2EF1F34D2CA203A6002321CC /* EstimatedCarbonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedCarbonTests.swift; sourceTree = "<group>"; };
 		F6DA06CE2C9F9A9500AC9105 /* Rides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DA06D12C9F9A9500AC9105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6DA06D32C9F9A9500AC9105 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				F6DA06E82C9F9A9800AC9105 /* RidesTests.swift */,
+				2EF1F34B2CA2037C002321CC /* VehicleListTests.swift */,
+				2EF1F34D2CA203A6002321CC /* EstimatedCarbonTests.swift */,
 			);
 			path = RidesTests;
 			sourceTree = "<group>";
@@ -153,6 +165,7 @@
 			children = (
 				F6DA07062CA0ADB000AC9105 /* VehicleViewModel.swift */,
 				F6DA070B2CA0AEAA00AC9105 /* VehicleDetailsViewModel.swift */,
+				2EF1F3452CA1FEE7002321CC /* EstimatedCarbonViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -162,6 +175,8 @@
 			children = (
 				F6DA070F2CA100ED00AC9105 /* VehicleListViewController.swift */,
 				F6DA07112CA1017B00AC9105 /* VehicleDetailsViewController.swift */,
+				2EF1F3472CA1FF7A002321CC /* EstimatedCarbonViewController.swift */,
+				2EF1F3492CA1FFF3002321CC /* PageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -305,11 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF1F3462CA1FEE7002321CC /* EstimatedCarbonViewModel.swift in Sources */,
 				F6DA070A2CA0AE3500AC9105 /* VehicleService.swift in Sources */,
+				2EF1F34A2CA1FFF3002321CC /* PageViewController.swift in Sources */,
 				F6DA07072CA0ADB000AC9105 /* VehicleViewModel.swift in Sources */,
 				F6DA07052CA0AD5300AC9105 /* Vehicle.swift in Sources */,
 				F6DA06D22C9F9A9500AC9105 /* AppDelegate.swift in Sources */,
 				F6DA07122CA1017B00AC9105 /* VehicleDetailsViewController.swift in Sources */,
+				2EF1F3482CA1FF7A002321CC /* EstimatedCarbonViewController.swift in Sources */,
 				F6DA07102CA100ED00AC9105 /* VehicleListViewController.swift in Sources */,
 				F6DA06D42C9F9A9500AC9105 /* SceneDelegate.swift in Sources */,
 				F6DA070C2CA0AEAA00AC9105 /* VehicleDetailsViewModel.swift in Sources */,
@@ -320,6 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF1F34C2CA2037C002321CC /* VehicleListTests.swift in Sources */,
+				2EF1F34E2CA203A6002321CC /* EstimatedCarbonTests.swift in Sources */,
 				F6DA06E92C9F9A9800AC9105 /* RidesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

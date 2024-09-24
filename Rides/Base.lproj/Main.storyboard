@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FnY-ZQ-K4Y">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -178,6 +179,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cxp-nQ-GhT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="683.20610687022895" y="-673.23943661971839"/>
+        </scene>
+        <!--Estimated Carbon View Controller-->
+        <scene sceneID="fD8-Z5-lz7">
+            <objects>
+                <viewController storyboardIdentifier="EstimatedCarbonViewController" id="NAV-GW-RzV" customClass="EstimatedCarbonViewController" customModule="Rides" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c7e-Fv-6lw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bph-eY-psM">
+                                <rect key="frame" x="176" y="428.33333333333331" width="41.333333333333343" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xKi-Ug-9m5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bph-eY-psM" firstAttribute="centerX" secondItem="xKi-Ug-9m5" secondAttribute="centerX" id="Jad-Y9-lvZ"/>
+                            <constraint firstItem="bph-eY-psM" firstAttribute="centerY" secondItem="xKi-Ug-9m5" secondAttribute="centerY" id="vPB-zH-hNv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emissionsLabel" destination="bph-eY-psM" id="4PB-8C-DZY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cf3-oc-ehJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2141.2213740458014" y="-673.23943661971839"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="1aE-yu-k7O">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="AiT-L5-LKi" customClass="PageViewController" customModule="TwinMeR" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fFZ-NW-c4m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2905" y="-673"/>
         </scene>
     </scenes>
     <resources>
